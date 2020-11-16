@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "ruvesh",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "lodash": "^4.17.20",
     "mongoose": "^5.10.14",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
